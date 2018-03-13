@@ -7,7 +7,7 @@ Sandwich Club is an app which provides you some interesting information about we
 
 
 1. When you click on a Sandwich in the main activity, there is an Intent to the detailed activity with the position of the item you have clicked on.
-2. Than a JSON string with this position is exported from a String array (which is stored in resources > values > strings.xml).
+2. Then a JSON string with this position is exported from a String array (which is stored in resources > values > strings.xml).
 3. This JSON String is passed into a method which gets required data from JSON and returns a custom object called Sandwich.
 4. And at the end. the data is exported from our Sandwich object (using 'get' methods) and passed into individual TextViews.
 
@@ -16,6 +16,6 @@ Sandwich Club is an app which provides you some interesting information about we
  - The project is completed
  - The project has been successfully reviewed
  - The project has met all the requirements
-## Used Libraries
+## Used Third-party Libraries
 1. [Picasso](http://square.github.io/picasso/) for displaying images from URL
 2. [ButterKnife](https://github.com/JakeWharton/butterknife) for binding views.
