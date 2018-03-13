@@ -9,6 +9,7 @@ Sandwich Club is an app which provides you some interesting information about we
 2. Than a JSON string with this position is exported from a String array (which is stored in resources > values > strings.xml).
 3. This JSON String is passed into a method which gets required data from JSON and returns a custom object called Sandwich.
 4. And at the end. the data is exported from our Sandwich object (using 'get' methods) and passed into individual TextViews.
+![Screenshots](Screenshots/image.png)
 ## Project Status
  - The project is completed
  - The project has been successfully reviewed
